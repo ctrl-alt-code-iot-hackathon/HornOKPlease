@@ -2,42 +2,12 @@ body
 {
 	padding: 0;
 	margin: 0;
+  background: -webkit-linear-gradient(left, #E26C7A, #AA72E3);
 }
-
-#btn1
+table
 {
-	width: 17%;
-	margin-top: 25%;
-	margin-left: -2%;
+  margin-top: 200px;
 }
-
-#btn2
-{
-	width: 17%;
-	margin-top: 10%;
-	margin-left: 3%;
-}
-
-#btn3
-{
-	width: 17%;
-	margin-top: 25%;
-	margin-left: 4%;
-}
-
-#btn4
-{
-	width: 17%;
-	margin-top: 38%;
-	margin-left: -39%;
-}
-
-#btn5
-{
-	width: 15%;
-	margin-top: 20%;
-}
-
 /* fallback */
 @font-face {
   font-family: 'Material Icons';
