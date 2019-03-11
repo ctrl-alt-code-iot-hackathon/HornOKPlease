@@ -1,0 +1,40 @@
+.container {
+  margin-left: 0 auto;
+  max-width: 1280px;
+  width: 50%;
+}
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 50%;
+  }
+}
+body
+{
+	background-size: cover;
+	margin-left: 20%;
+	background: -webkit-linear-gradient(left, #E26C7A, #AA72E3);
+}
+
+.form
+{
+	padding-top: 7%;
+	background: white;
+}
+
+#frm
+{
+	margin-top: 30%;
+	background: white;
+	padding: 30px;
+	border-radius: 2rem;
+}
+
+#submitbtn
+{
+	border-radius: 2rem;
+}
