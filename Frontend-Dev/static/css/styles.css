@@ -31,5 +31,13 @@ body
 
 #frm
 {
+	margin-top: 30%;
+	background: white;
 	padding: 30px;
+	border-radius: 2rem;
+}
+
+#submitbtn
+{
+	border-radius: 2rem;
 }

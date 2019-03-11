@@ -16,8 +16,8 @@
 
 
 <body class = "container" style="width: 40%;">   
-   <div class = "row transparent z-depth-5" id="frm">
-      <form class = "form">
+   <div class = "row z-depth-5" id="frm">
+      <form class = "form" type="POST" action="/insert">
          <div class = "row">
             <div class = "input-field col s10">
                <i class = "material-icons prefix">account_circle</i>
@@ -79,7 +79,7 @@
          </div>
       </div>
 
-      <button class="btn waves-effect waves-light brown right"><i class="material-icons left">done</i>Submit</button>
+      <button id = "submitbtn" class="btn waves-effect waves-light brown right"><i class="material-icons left">done</i>Submit</button>
 
    </form>       
 </div>
