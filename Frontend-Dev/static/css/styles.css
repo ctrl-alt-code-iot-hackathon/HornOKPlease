@@ -15,12 +15,9 @@
 }
 body
 {
-	/*background-image: url("../static/misc/photo.jpg");*/
 	background-size: cover;
 	margin-left: 20%;
 	background: -webkit-linear-gradient(left, #E26C7A, #AA72E3);
-
-	/*background: red;*/
 }
 
 .form
