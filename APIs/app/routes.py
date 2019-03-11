@@ -9,10 +9,15 @@ def index(error=None):
     return render_template('login.html', error=error)
 
 
-@app.route('/chat', methods=["POST"])
-def take_username():
+@app.route('/insert', methods=["POST"])
+def take_details():
     try:
-        username = request.form['username']
+        username = request.form['name']
+        license = request.form['license']
+        gender = request.form['gender']
+        dob = request.form['date']
+        contact = request.form['phone']
+        
         if username:
             verify_username(username)
             messages = get_all_messages()
