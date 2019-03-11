@@ -1,0 +1,6 @@
+from app import db
+from app.models import Vehicles, Driver
+d1 = Driver(username = 'Sid', license = 'abcd', gender='Male', dob = '14-12-1998', contact = '9819085')
+db.session.add(d1)
+db.session.commit()
+Driver.query.all()
