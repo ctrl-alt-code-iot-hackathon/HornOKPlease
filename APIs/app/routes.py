@@ -13,8 +13,8 @@ def index(error=None):
 def take_details():
     if request.method == "POST":
         try:
-            username = request.form['name']
-            license = request.form['Licence']
+            username = request.form['fullname']
+            license = request.form['licence']
             gender = request.form['gender']
             dob = request.form['date']
             contact = request.form['phone']
