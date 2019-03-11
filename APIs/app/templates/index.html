@@ -2,15 +2,11 @@
 <head>
    <title>Login</title>
    <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
-   <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-   <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
    <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
    </script> 
 </head>
-
 
 <body class = "container" style="width: 40%;">  
    <h3>FLOCK</h3>
@@ -32,53 +28,42 @@
                class = "validate" required />          
             </div>
          </div>
-      <!-- </div> -->
-
-      <div class = "row">
-         <div class = "input-field col s10">
-            <i class = "material-icons prefix">contact_phone</i>
-            <input placeholder = "Phone" id = "phone" type = "tel" name="phone" 
-            class = "validate">
-            <label for = "phone">Phone</label>
+         <div class = "row">
+            <div class = "input-field col s10">
+               <i class = "material-icons prefix">contact_phone</i>
+               <input placeholder = "Phone" id = "phone" type = "tel" name="phone" 
+               class = "validate">
+               <label for = "phone">Phone</label>
+            </div>
          </div>
-      </div>
-
-      <div class = "row">
-         <div class = "input-field col s10">
-            <i class = "material-icons prefix">face</i>
-      
+         <div class = "row">
+            <div class = "input-field col s10">
+               <i class = "material-icons prefix">face</i>
+               
                <input id = "male" type = "radio" name = "gender"
                value = "male" checked />
                <label for = "male">Male</label>
-           
+               
                <input id = "female" type = "radio" name = "gender"
                value = "female"/>
                <label for = "female">Female</label>
-            
+               
                <input id = "others" type = "radio" name = "gender"
                value = "others"/>
                <label for = "others">Others</label>
-  
-
+            </div>
          </div>
-      </div>
-
-      <div class="row">
-         <div class = "input-field col s10">
-
+         <div class="row">
+            <div class = "input-field col s10">
                <i class="small material-icons">date_range</i>
                <input type="date" name="date">
-
+            </div>
          </div>
-      </div>
-
-      <button id = "submitbtn" class="btn waves-effect waves-light brown right" type="submit" value="Submit"/><i class="material-icons left">done</i>
-      <script type="text/javascript">
-         console.log(' Data Sent.')
-      </script>
-         <!-- <a href="index.html"  onclick="window.open('demo.html', 'newwindow', 'width=800, height=600'); return false;"></a> -->
-Submit</button>
-
+         <button id = "submitbtn" class="btn waves-effect waves-light brown right" type="submit" value="Submit"/><i class="material-icons left">done</i>
+         <script type="text/javascript">
+            console.log("Data Sent.")
+         </script>
+      Submit</button>
    </form>       
 </div>
 </body>   

@@ -4,31 +4,61 @@ body
 	margin: 0;
 }
 
-#btn1{
+#btn1
+{
 	width: 17%;
 	margin-top: 25%;
 	margin-left: -2%;
 }
 
-#btn2{
+#btn2
+{
 	width: 17%;
 	margin-top: 10%;
 	margin-left: 3%;
 }
 
-#btn3{
+#btn3
+{
 	width: 17%;
 	margin-top: 25%;
 	margin-left: 4%;
 }
 
-#btn4{
+#btn4
+{
 	width: 17%;
 	margin-top: 38%;
 	margin-left: -39%;
 }
 
-#btn5{
+#btn5
+{
 	width: 15%;
 	margin-top: 20%;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v46/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons 
+{
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
 }
