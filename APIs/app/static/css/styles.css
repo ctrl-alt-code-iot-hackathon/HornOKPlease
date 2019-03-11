@@ -3,7 +3,7 @@
   max-width: 1280px;
   width: 50%;
 }
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 200px) {
   .container {
     width: 50%;
   }
