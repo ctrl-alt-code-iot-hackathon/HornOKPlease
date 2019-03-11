@@ -10,23 +10,26 @@ def index(error=None):
 
 
 @app.route('/insert', methods=["POST"])
-def take_details():
+def insert():
+    print(request.form)
+    print(request.method)
     if request.method == "POST":
+        print('Posting')
         try:
-            username = request.form['fullname']
-            license = request.form['licence']
-            gender = request.form['gender']
-            dob = request.form['date']
-            contact = request.form['phone']
+            username = request.form.get('fullname')
+            license = request.form.get('licence')
+            gender = request.form.get('gender')
+            dob = request.form.get('date')
+            contact = request.form.get('phone')
 
             try:
                 insert_details(username, license, gender, dob, contact)
                 return render_template('main.html', username=username)
             except Exception as e:
-                return render_template('index.html', error = e)
+                return render_template('main.html')
         except Exception as e:
             print(str(e))
-            return redirect(url_for('index'))
+            return render_template('main.html')
     else:
         print("Wrong")
 

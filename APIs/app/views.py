@@ -3,9 +3,11 @@ from app.models import Driver, Vehicles
 
 
 def insert_details(username, license, gender, dob, contact):
+    print('inserting')
     new_driver = Driver(username = username, license = license, gender = gender, dob = dob, contact = contact)
     db.session.add(new_driver)
     db.session.commit()
+    print('inserted')
 
 
 # def verify_username(username):
