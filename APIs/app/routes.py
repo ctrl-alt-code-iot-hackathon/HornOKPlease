@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, url_for
+from flask import render_template, request
 from app.views import insert_details
 from app import app
 from flask import jsonify
@@ -39,18 +39,3 @@ def test():
     data = {"message": "yooo"}
     print("Working")
     return jsonify(data)
-
-
-@app.route('/send_message', methods=["POST"])
-def send_message():
-    message = request.get_json()
-    print("MESSAGE", message)
-    if len(message['message']) > 0:
-        add_message(message['message'], message['username'])
-        messages = get_all_messages()
-        data = {}
-        data['message'] = messages[-1].message
-        data['sender'] = messages[-1].sentBy.username
-        return jsonify(data)
-    else:
-        pass
