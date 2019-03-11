@@ -28,7 +28,7 @@ body
 
 #frm
 {
-	margin-top: 30%;
+	margin-top: 10%;
 	background: white;
 	padding: 30px;
 	border-radius: 2rem;
@@ -37,4 +37,14 @@ body
 #submitbtn
 {
 	border-radius: 2rem;
+}
+
+h3
+{
+	margin-top: 20%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	text-shadow: grey;
 }

@@ -4,6 +4,7 @@
    <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
    <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
@@ -11,7 +12,8 @@
 </head>
 
 
-<body class = "container" style="width: 40%;">   
+<body class = "container" style="width: 40%;">  
+   <h3>WIRELESS  TOW</h3>
    <div class = "row z-depth-5" id="frm">
       <form class = "form" type="POST" action="/insert">
          <div class = "row">
@@ -44,38 +46,38 @@
       <div class = "row">
          <div class = "input-field col s10">
             <i class = "material-icons prefix">face</i>
-            <br>
-            <p>
+      
                <input id = "male" type = "radio" name = "gender"
-               value = "male"  />
+               value = "male" checked />
                <label for = "male">Male</label>
-            </p>
-
-            <p>
+           
                <input id = "female" type = "radio" name = "gender"
-               value = "female" checked />
+               value = "female"/>
                <label for = "female">Female</label>
-            </p>
-
-            <p>
+            
                <input id = "others" type = "radio" name = "gender"
-               value = "others" checked />
+               value = "others"/>
                <label for = "others">Others</label>
-            </p>
+  
 
          </div>
       </div>
 
       <div class="row">
          <div class = "input-field col s10">
-            <p>
+
                <i class="small material-icons">date_range</i>
                <input type="date" name="date">
-            </p>
+
          </div>
       </div>
 
-      <button id = "submitbtn" class="btn waves-effect waves-light brown right"><i class="material-icons left">done</i>Submit</button>
+      <button id = "submitbtn" class="btn waves-effect waves-light brown right" type="submit" value="Submit"/><i class="material-icons left">done</i>
+      <script type="text/javascript">
+         console.log(' Data Sent.')
+      </script>
+         <!-- <a href="index.html"  onclick="window.open('demo.html', 'newwindow', 'width=800, height=600'); return false;"></a> -->
+Submit</button>
 
    </form>       
 </div>
