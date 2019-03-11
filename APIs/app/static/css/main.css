@@ -1,4 +1,25 @@
 body
 {
-	margin-top: 10%;
+	padding: 0;
+	margin: 0;
+}
+
+#btn1{
+	margin-top: 25%;
+	margin-left: -2%;
+}
+
+#btn2{
+margin-top: 10%;
+margin-left: 3%;
+}
+
+#btn3{
+	margin-top: 25%;
+	margin-left: 4%;
+}
+
+#btn4{
+margin-top: 38%;
+margin-left: -31%;
 }
