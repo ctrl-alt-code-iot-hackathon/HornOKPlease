@@ -7,6 +7,7 @@ body
 table
 {
   margin-top: 200px;
+  border-collapse: unset;
 }
 /* fallback */
 @font-face {
@@ -31,4 +32,9 @@ table
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
+}
+
+#col2
+{
+  margin-top: 23%;
 }
