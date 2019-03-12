@@ -2,6 +2,8 @@
 
 # Smart Vehicle to Vehicle Technology using IoT
 
+**Built with love during the SRM IOT Hackathon**
+
 ### Abstract: Decrease commute times as well as enable multi-vehicle control by a single driver using GPS and Ultrasonic sensors.
 
 This project has 3 major use cases:
@@ -13,3 +15,11 @@ As we know, autonomous vehicles aren't as safe as we need them to be. Instead a 
 This can be developed into a large scale Vehicle To Vehicle (V2V) network where each vehicle knows what the vehicles in their vicinity is doing. (Speed, emergencies, traffic, etc.)
 
 We believe this idea has large potential for bringing change to a pressing problem.
+
+## Team:
+* [Prabhat Singh](https://github.com/prabhatdev "Logo Title Text 1")
+* [Siddharth Jain](https://github.com/SidJain1412)
+* [Aradhya Singh](https://github.com/aradhyas)
+* [Shreayan Chaudhary](https://github.com/shreayan98c)
+
+**Built with love during the SRM IOT Hackathon**
