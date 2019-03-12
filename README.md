@@ -21,5 +21,3 @@ We believe this idea has large potential for bringing change to a pressing probl
 * [Siddharth Jain](https://github.com/SidJain1412)
 * [Aradhya Singh](https://github.com/aradhyas)
 * [Shreayan Chaudhary](https://github.com/shreayan98c)
-
-**Built with love during the SRM IOT Hackathon**
