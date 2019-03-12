@@ -1,5 +1,14 @@
 console.log("LOADED!!!")
 
+var lat = (Math.random()*180);
+var long = (Math.random()*180);
+
+console.log(lat);
+console.log(long);
+$(document).ready(function(){
+  document.all.setme1.innerHTML = lat;
+  document.all.setme2.innerHTML = long;
+});
 $(document).ready(function(){
   $("#btn1").click(function(){
   console.log("Left button clicked!");
