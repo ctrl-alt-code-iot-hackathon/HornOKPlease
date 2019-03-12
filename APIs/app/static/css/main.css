@@ -34,7 +34,14 @@ table
   -webkit-font-smoothing: antialiased;
 }
 
-#col2
+
+
+#box1
 {
-  margin-top: 23%;
+  margin-top: 18%;
+}
+
+#box2
+{
+  margin-top: 25%;
 }
