@@ -9,6 +9,7 @@ int M2IN=15;
 const int trigPin = 2;  //D4
 const int echoPin = 0;  //D3
 
+int isOn=1;
 long duration;
 int distance;
 
@@ -101,6 +102,16 @@ pinMode(echoPin, INPUT); // Sets the echoPin as an Input
     server.send(200, "text/html", "success_halt");
     halt();
   });
+  server.on("/on", [](){
+    server.send(200, "text/html", "success_on");
+    isOn=1;
+  });
+  server.on("/off", [](){
+    server.send(200, "text/html", "success_off");
+    isOn=0;
+    halt();
+  });
+  
   halt();
   server.begin();
   Serial.println("Web server started!");
@@ -128,9 +139,10 @@ if(distance<10 && distance>0){
   halt();
   }
 else if(distance>10 && distance<50){
+  if(isOn)
   straight();
   }
-delay(500);
+delay(100);
 }
 void loop(void){
   server.handleClient();
