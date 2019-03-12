@@ -76,3 +76,20 @@ $(document).ready(function(){
     })
 });
 });
+
+$(document).ready(function(){
+  $("#btn5").click(function(){
+  console.log("Halt button clicked!");
+  $.ajax({
+    url: "http://192.168.43.6/off",
+    method: "get",
+    crossDomain : true,
+    success: function(){
+      console.log("sent request!")
+    },
+    error: function(){
+      console.log("failed!")
+    }
+    })
+});
+});
