@@ -1,7 +1,7 @@
 console.log("LOADED!!!")
 
-var lat = (Math.random()*180);
-var long = (Math.random()*180);
+var lat = Math.round((Math.random()*180)*100)/100;
+var long = Math.round((Math.random()*180)*100)/100;
 
 console.log(lat);
 console.log(long);
